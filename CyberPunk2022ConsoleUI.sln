@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberPunk2022_ConsoleRPG", "CyberPunk2022_ConsoleRPG\CyberPunk2022_ConsoleRPG.csproj", "{B6BB226D-84CF-4229-9EDA-58F9FF1E7CE4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{83180DE9-43B9-4605-AA68-7C4AA8735268} = {83180DE9-43B9-4605-AA68-7C4AA8735268}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{83180DE9-43B9-4605-AA68-7C4AA8735268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6BB226D-84CF-4229-9EDA-58F9FF1E7CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BB226D-84CF-4229-9EDA-58F9FF1E7CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BB226D-84CF-4229-9EDA-58F9FF1E7CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BB226D-84CF-4229-9EDA-58F9FF1E7CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83180DE9-43B9-4605-AA68-7C4AA8735268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83180DE9-43B9-4605-AA68-7C4AA8735268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83180DE9-43B9-4605-AA68-7C4AA8735268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83180DE9-43B9-4605-AA68-7C4AA8735268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38B3B53-6467-4E69-A16E-EB748E9EE173}
+	EndGlobalSection
+EndGlobal
